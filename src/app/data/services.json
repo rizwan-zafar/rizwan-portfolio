@@ -17,18 +17,36 @@
     {
         "id": 1,
         "image": "/service2.png",
-        "maintech": "Pern Stack Development",
+        "maintech": "Cross-Platform Mobile App Development",
         "tech": [
-            "React.js",
-            "Node.js",
-            "PostgreSQL",
-            "Typescript",
-            "Express.js",
-            "Next.js"
+            "React Native",
+            "TypeScript",
+            "REST APIs",
+            "Node.js & Express.js",
+            "PostgreSQL / MongoDB",
+            "Firebase",
+            "Expo / CLI"
         ]
     },
+
     {
         "id": 2,
+        "image": "/aem-service.png",
+        "maintech": "Adobe Experience Manager (AEM) Development",
+        "tech": [
+            "AEM Architecture",
+            "AEM Sites & Assets",
+            "Dispatcher",
+            "Custom Components",
+            "OSGi & Sling,JCR",
+            "HTL, React, Alpine",
+            "HTML,CSS,JS",
+            "Java,Maven,Git"
+        ]
+    },
+
+    {
+        "id": 3,
         "image": "/service3.png",
         "maintech": "JAM Stack Development",
         "tech": [
@@ -46,7 +64,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "image": "/service4.png",
         "maintech": "Frontend Development",
         "tech": [
@@ -66,7 +84,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "image": "/service5.png",
         "maintech": "Ecommerce Development",
         "tech": [
@@ -80,7 +98,7 @@
            
         ]
     },    {
-        "id": 5,
+        "id": 6,
         "image": "/service6.png",
         "maintech": "OpenAI Integration",
         "tech": [
@@ -90,7 +108,7 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "image": "/service7.png",
         "maintech": "Excel to Web Conversion",
         "tech": [
@@ -107,7 +125,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "image": "/service8.png",
         "maintech": "Figma/ Adobe to Web",
         "tech": [
