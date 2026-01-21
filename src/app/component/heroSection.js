@@ -16,7 +16,7 @@ const HeroSection = () => {
                     <div className='flex items-center gap-3'>  <h1 className='md:text-[30px] text-[20px] poppins-bold text-[#CACACA]  '>I am</h1>
                         <Typewriter
                             options={{
-                                strings: ['Abdul Hannan', 'Mern Stack Developer', 'Jam Stack Developer', 'E-commerce Developer'],
+                                strings: ['Rizwan Zafar', 'Mern Stack Developer', 'Mobile App Developer', 'E-commerce Developer','AEM Developer'],
                                 autoStart: true,
                                 loop: true,
                                 css: true, // Set this to true to use custom CSS
@@ -29,25 +29,17 @@ const HeroSection = () => {
 
                     <p className='text-[13px]  md:w-[460px] tracking-wider text-[#787878] mt-4 text-justify'>
                         As a seasoned developer, I have worked with some of the larger ecommerce brands 
-                        (CodiesHub, ScanQuest, GenShare) and trading platforms such as Monkey Monk and xadja.
-                         Over the course of my career, I've contributed to <span className='font-bold'>46+ projects</span>. My expertise 
-                         lies in creating web applications that not only meet but <span className='font-bold'>exceed business goals</span>,
-                          making a <span className='font-bold'>real impact</span>. 🚀
+                        (eandmoney, ScanQuest, GenShare) and trading platforms such as Monkey Monk and xadja.
+                         Over the course of my career, I've contributed to <span className='font-bold'>multiple projects</span>. My expertise
+                         lies in creating web and app applications that not only meet but <span className='font-bold'>exceed business goals</span>,
+                          making a <span className='font-bold'>real impact</span>.
                     </p>
-                    {/* <p className='text-[13px]  md:w-[460px] tracking-wider text-[#787878] mt-4'>A seasoned developer with a passion for creating innovative digital solutions.
-                        Specializing in [Programming Languages  or  Technologies], I thrive on turning
-                        complex ideas into user-friendly applications. Whether it's web development,
-                        mobile  apps, or software solutions, I'm committed to delivering high-quality
-                        code and seamless user experiences. Explore my portfolio to see how I can help
-                        bring your projects to fruition.
-                    </p> */}
-
                     <Link href="#projects">
                         <button className='transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:bg-black hover:text-white duration-300 bg-[#2D8CFF] mt-9 text-white py-3 rounded-2xl md:w-48 w-36 poppins-semibold flex items-center justify-between md:px-8 px-3 gap-2 text-[16px] text-center'>My Work<HiArrowLongRight className=' text-4xl' /></button>
                     </Link>
                 </div>
                 <div>
-                    <Image src="/user.png" alt="user" width={372} height={472} className=' mx-auto md:w-[422px] lg:h-[350px] ' />
+                    <Image src="/user.png" alt="user" width={372} height={0} className=' mx-auto md:w-[422px] lg:h-[350px] ' />
                 </div>
             </div>
         </section>
