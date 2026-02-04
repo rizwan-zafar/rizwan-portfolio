@@ -39,7 +39,7 @@ const Projects = () => {
                 <div key={index} onClick={(e) => filteredCategory(e.target.textContent)} className="hover:bg-[#2D8CFF] text-white md:rounded-xl rounded-md md:w-28 poppins-semibold md:text-sm text-[8px] text-center md:py-3 px-2 py-1">
                 {item.category}
             </div>
-            ))}  
+            ))}
             </motion.div> */}
             <div>
                 <div className="grid md:grid-cols-2 gap-5 md:w-[900px] my-5 mx-auto">
@@ -62,7 +62,6 @@ const Projects = () => {
                             if (manageRow % 2 === 0) {
                                 if (index % 2 === 0) {
                                     manageRow = manageRow + 1;
-                                    // console.log(index, 'index');
                                     return (
                                         <div key={index} className={`my-3 mx-auto relative md:ml-12 ${showAllItems || index  < displayCount ? '' : 'hidden'}`}>
                                             <Link target="_blank" href={ProjectData[index + 1].link} className="cursor-pointer ">
